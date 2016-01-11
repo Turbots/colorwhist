@@ -13,5 +13,8 @@ hs_err_pid*
 
 # Intellij
 *.iml
-node_modules
 .idea/
+
+# NPM and JSPM
+node_modules
+jspm_packages

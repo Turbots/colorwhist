@@ -6,10 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": ""
+  "repository": "https://github.com/Turbots/colorwhist",
   "author": "Dieter Hubau",
   "license": "ISC",
   "devDependencies": {
     "jspm": "^0.16.20"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "app"
+    },
+    "configFile": "app/jspm/config.js",
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
   }
 }
