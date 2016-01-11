@@ -1,0 +1,15 @@
+{
+  "name": "colorwhist",
+  "version": "1.0.0",
+  "description": "Color Whist for the cool people",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": ""
+  "author": "Dieter Hubau",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.20"
+  }
+}
